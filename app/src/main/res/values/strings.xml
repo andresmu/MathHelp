@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MathHelp</string>
+    <string name="large_text">
+        "¡Bienvenido a MathHelp!.\n\n"
+
+        "En MathHelp tendrás la opción de medir tus  habilidades matemáticas.\n\n"
+
+        "¿Como lo harás?\n"
+        "Respondiendo unas preguntas básicas de suma,\n resta, división y multiplicación.\n\n"
+
+
+        "¿Para qué?\n"
+        "En MathHelp queremos que mejores tus\n matemáticas, solo debes responder unas\n"
+        "simples preguntas.\n\n"
+
+        "¿Fallaste alguna? No te preocupes, MathHelp te \n contactará con Andrés Murillo quien te "
+        "ayudará a \n mejorar tus debilidades.\n\n"
+        "¿Responderás todo bien?\n"
+        "¡Intentalo dando play!\n"
+
+    </string>
+    <string name="info_text">
+        "Mi nombre es Andrés Murillo, soy Ingeniero en Informática y profesor particular independiente de Matematicas.\n\n"
+
+        "¿Quieres reforzar tus conocimientos matematicos o simplemente quieres aprender más?\n\n"
+
+        "¡Contactame tocando abajo!\n\n"
+
+    </string>
+    <string name="action_settings1">About MathHelp</string>
+    <string name="action_settings">About MathHelp</string>
+    <string name="title_activity_quizz">MathHelp</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

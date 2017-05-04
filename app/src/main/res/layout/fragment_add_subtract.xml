@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="andres.mathhelp.views.tabs.AddSubtractFragment">
+
+    <TextView
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"
+        android:text="¿Si sumo 5 + 5, su resultado es igual a 10 - 20?"/>
+
+    <RadioGroup
+        android:id="@+id/addSubRg"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Si, ya que da 10 en ambos casos"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No, ya que la resta da negativo y 5 + 5 es positivo"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tengo dudas con números negativos"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addSubBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Responder"/>
+
+</LinearLayout>
